@@ -108,6 +108,8 @@ text-align
 margin - left | right | top | bottom
 padding - left | right | top | bottom
 ```
+[Lista Completa](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/styles/css/#property-reference)
+
 
 ## 2. SVG
 [FFimageLoading](https://github.com/luberda-molinet/FFImageLoading/wiki/Xamarin.Forms-API)
