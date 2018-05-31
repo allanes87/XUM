@@ -28,8 +28,8 @@
     font-size: 16;
     color: #A22C29;
     margin: 5 0;
-    /*font-size: 14; Error*/
-    border-radius: 50%;
+    /*font-size: 10; Error*/
+    /*border-radius: 24; no funciona*/
 }
 
     ^Button.primary {
@@ -41,4 +41,5 @@
 
 ^StackLayout > Entry {
     font-size: 14;
+    background-color: transparent;
 }
