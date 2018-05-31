@@ -9,7 +9,7 @@
 
 ![alt text](https://github.com/allanes87/XUM/blob/master/Screenshots/xamarin3_1.PNG)
 
-
+- Referenciar nuestro CSS en una ContentPage
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -27,7 +27,77 @@
     </StackLayout>
 </ContentPage>
 ```
+- Momento de aplicar nuestros conocimientos de CSS (editando 'style.css'). Por ejemplo podemos aplicar un background y padding a todos los ContentPage
 
+```css
+^ContentPage {
+  background-color: lightgreen;
+  padding: 20
+}
+```
+
+### 1.a Selectores
+
+- (^element): Este símbolo selecciona todos los elementos que contengan como 'clase base' el 'element'
+```css
+^Label {
+    text-align: center;
+    font-style: bold;
+    font-size: 30;
+    color: white;
+}
+```
+- element>element
+```css
+stacklayout>label {
+  color: blue;
+}
+```
+
+### 1.b StyleId
+
+- ID selector: Asignando un "StyleId" a los elementos Xaml podremos seleccionarlos en CSS
+```xml
+<StackLayout StyleId="LoginForm">
+```
+```css
+#LoginForm {
+    background-color: whitesmoke;
+}
+```
+
+### 1.c StyleClass
+
+- Class selector: Asignando un "StyleClass" a los elementos Xaml podremos trabajar con ellos en CSS
+```xml
+<Button Text="Login" StyleClass="primary"/>
+```
+```css
+.primary {
+    background-color: dodgerblue;
+    color: #FFFFFF;
+    font-size: 14;
+    margin: 15 0;
+}
+```
+
+### 1.d Elementos soportados
+```css
+color
+background-color
+font-family
+font-size
+font-style
+height
+width
+border-color
+border-width
+visibility
+opacity
+text-align
+margin - left | right | top | bottom
+padding - left | right | top | bottom
+```
 
 ## 2. SVG
 [FFimageLoading](https://github.com/luberda-molinet/FFImageLoading/wiki/Xamarin.Forms-API)
