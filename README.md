@@ -111,5 +111,6 @@ padding - left | right | top | bottom
 
 ## 2. SVG
 [FFimageLoading](https://github.com/luberda-molinet/FFImageLoading/wiki/Xamarin.Forms-API)
+
 [FFimageLoading SVG support](https://github.com/luberda-molinet/FFImageLoading/wiki/SVG-support)
 
