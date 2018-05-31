@@ -47,6 +47,13 @@
     color: white;
 }
 ```
+- element: Con diferencia del (^element), este selector no identifica sub-clases
+```css
+StackLayout {
+    margin: 20;
+}
+```
+
 - element>element
 ```css
 stacklayout>label {
@@ -56,7 +63,7 @@ stacklayout>label {
 
 ### 1b. StyleId
 
-- ID selector: Asignando un "StyleId" a los elementos Xaml podremos seleccionarlos en CSS
+- ID selector: Asignando un "StyleId" a los elementos Xaml podremos seleccionarlos en CSS. Luego de buscar por los "StyleId", utilizando este selector también buscará por "x:Name". 
 ```xml
 <StackLayout StyleId="LoginForm">
 ```
