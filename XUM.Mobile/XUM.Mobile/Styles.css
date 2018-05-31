@@ -1,0 +1,44 @@
+﻿^ContentPage {
+    background-color: lightgray;
+    padding: 15;
+}
+
+^Label {
+    text-align: center;
+    font-style: bold;
+    font-size: 30;
+    color: dodgerblue;
+}
+
+#LoginForm {
+    background-color: whitesmoke;
+    padding: 15;
+    border-radius: 5;
+    margin-top: 30
+}
+
+^Entry {
+    font-size: 30;
+    background-color: white;
+    margin: 10 0;
+    color: #0A100D;
+}
+
+^Button {
+    font-size: 16;
+    color: #A22C29;
+    margin: 5 0;
+    /*font-size: 14; Error*/
+    border-radius: 50%;
+}
+
+    ^Button.primary {
+        background-color: dodgerblue;
+        color: #FFFFFF;
+        font-size: 14;
+        margin: 15 0;
+    }
+
+^StackLayout > Entry {
+    font-size: 14;
+}

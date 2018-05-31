@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             x:Class="XUM.Mobile.SvgFilesView"
+             Title="SVG magic!">
+    <ContentPage.Content>
+        <StackLayout>
+            <!-- FIRST APPROACH (From platform resources)-->
+            <Label Text="From Native project" FontSize="Medium"/>
+            <ffimageloadingsvg:SvgCachedImage WidthRequest="200" HeightRequest="200" Source="face_24px.svg"/>
+
+            <!-- SECOND APPROACH (Shared proyect EmbeddedResource): -->
+            <Label Text="From Shared project" FontSize="Medium"/>
+            <ffimageloadingsvg:SvgCachedImage WidthRequest="200" HeightRequest="200" Source="resource://XUM.Mobile.Resources.flag_2.svg"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XUM.Mobile"
+             x:Class="XUM.Mobile.MainPage"
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout Padding="10">
+        <Label Text="Xamarin Mundialista" FontSize="Large"
+               Margin="0,20"/>
+
+        <StackLayout Margin="10,20">
+
+            <Button Text="Button Sample" Clicked="OnNextPageButtonClicked" 
+                    BackgroundColor="{StaticResource BlueColor}" TextColor="White"/>
+            
+            <Button Text="Hello CSS" Clicked="OnHelloCssPageButtonClicked" 
+                    BackgroundColor="{StaticResource BlueColor}" TextColor="White"/>
+            
+            <Button Text="Svg Files" Clicked="OnSvgFilesPageButtonClicked" 
+                    BackgroundColor="{StaticResource BlueColor}" TextColor="White"/>
+
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

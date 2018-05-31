@@ -3,3 +3,9 @@
 ################################################################################
 
 /.vs/XUM/v15
+/XUM.Mobile/XUM.Mobile/bin/Debug/netstandard2.0
+/XUM.Mobile/XUM.Mobile/obj
+/XUM.Mobile/XUM.Mobile.Android/bin/Debug
+/XUM.Mobile/XUM.Mobile.Android/obj
+/XUM.Mobile/XUM.Mobile.iOS/bin
+/XUM.Mobile/XUM.Mobile.iOS/obj

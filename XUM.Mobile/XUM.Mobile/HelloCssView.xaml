@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XUM.Mobile.HelloCssView"
+             Title="CSS">
+    
+    <ContentPage.Resources>
+        <StyleSheet Source="Styles.css" />
+    </ContentPage.Resources>
+
+    <StackLayout StyleId="LoginForm">
+        <Label Text="Hello CSS!"/>
+
+        <StackLayout>
+            <Entry Placeholder="Email Address" />
+            <Entry Placeholder="Password" IsPassword="true" />
+
+            <Button Text="Login" StyleClass="primary"/>
+            <Button Text="Forgot Password?" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

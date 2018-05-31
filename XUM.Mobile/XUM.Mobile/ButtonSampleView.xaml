@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XUM.Mobile.ButtonSampleView"
+             BackgroundColor="White"
+             Title="Button Style">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="15">
+                <Label Text="Button from invision" TextColor="Black"/>
+            </StackLayout>
+
+            <StackLayout Padding="15"
+                         VerticalOptions="CenterAndExpand">
+
+                <Button Text="Comenzar" FontSize="18" BackgroundColor="{StaticResource BlueColor}" 
+                        CornerRadius="24" HeightRequest="48" TextColor="White"/>
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
