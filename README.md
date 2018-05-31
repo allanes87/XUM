@@ -61,6 +61,9 @@ stacklayout>label {
 }
 ```
 
+[Ver selectores](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/styles/css/#selector-reference)
+
+
 ### 1b. StyleId
 
 - ID selector: Asignando un "StyleId" a los elementos Xaml podremos seleccionarlos en CSS. Luego de buscar por los "StyleId", utilizando este selector también buscará por "x:Name". 
