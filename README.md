@@ -36,7 +36,7 @@
 }
 ```
 
-### 1.a Selectores
+### 1a. Selectores
 
 - (^element): Este símbolo selecciona todos los elementos que contengan como 'clase base' el 'element'
 ```css
@@ -54,7 +54,7 @@ stacklayout>label {
 }
 ```
 
-### 1.b StyleId
+### 1b. StyleId
 
 - ID selector: Asignando un "StyleId" a los elementos Xaml podremos seleccionarlos en CSS
 ```xml
@@ -66,7 +66,7 @@ stacklayout>label {
 }
 ```
 
-### 1.c StyleClass
+### 1c. StyleClass
 
 - Class selector: Asignando un "StyleClass" a los elementos Xaml podremos trabajar con ellos en CSS
 ```xml
@@ -81,7 +81,7 @@ stacklayout>label {
 }
 ```
 
-### 1.d Elementos soportados
+### 1d. Elementos soportados
 ```css
 color
 background-color
