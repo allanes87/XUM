@@ -110,6 +110,10 @@ padding - left | right | top | bottom
 ```
 [Lista Completa](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/styles/css/#property-reference)
 
+### Resultado final
+
+![alt text](https://github.com/allanes87/XUM/blob/master/Screenshots/xamarin3_2.png)
+
 
 ## 2. SVG
 [FFimageLoading](https://github.com/luberda-molinet/FFImageLoading/wiki/Xamarin.Forms-API)
