@@ -112,8 +112,7 @@ padding - left | right | top | bottom
 
 ### Resultado final
 
-![alt text](https://github.com/allanes87/XUM/blob/master/Screenshots/xamarin3_2.png | width=48)
-
+<img src="https://github.com/allanes87/XUM/blob/master/Screenshots/xamarin3_2.png" width="300" height="525">
 
 ## 2. SVG
 [FFimageLoading](https://github.com/luberda-molinet/FFImageLoading/wiki/Xamarin.Forms-API)
