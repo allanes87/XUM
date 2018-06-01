@@ -112,7 +112,7 @@ padding - left | right | top | bottom
 
 ### Resultado final
 
-![alt text](https://github.com/allanes87/XUM/blob/master/Screenshots/xamarin3_2.png)
+![alt text](https://github.com/allanes87/XUM/blob/master/Screenshots/xamarin3_2.png | width=48)
 
 
 ## 2. SVG
